@@ -1,0 +1,16 @@
+.DS_Store
+Library
+Temp
+obj
+Xcode
+*.csproj
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
+*.meta
+*.sh
+*.mdb
+*.dll
+Assets/NGUI/Examples/
+Assets/Physics Materials 2D/

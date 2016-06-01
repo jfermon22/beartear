@@ -13,7 +13,7 @@ GameObject:
   - 114: {fileID: 11400000}
   - 50: {fileID: 5000000}
   - 82: {fileID: 8200000}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: HoneyPot
   m_TagString: Power Up
   m_Icon: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - 82: {fileID: 8200000}
   - 114: {fileID: 11400000}
   - 58: {fileID: 5800000}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Gem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,7 +48,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!58 &5800000
 CircleCollider2D:
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1839905d3089f45b5882659f44a39c72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Value: 100
+  Value: 1000
   PowerUpSound: {fileID: 8300000, guid: c06a47c2e4e0d4b93a87e08203f99e34, type: 3}
 --- !u!212 &21200000
 SpriteRenderer:

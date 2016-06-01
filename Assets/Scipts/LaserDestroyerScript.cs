@@ -21,13 +21,4 @@ public class LaserDestroyerScript : MonoBehaviour {
 				Destroy (other.gameObject);
 		} 
 	}
-
-	/*	void  OnTriggerEnter2D (Collider2D other) 
-		{
-				//Debug.Log ("Ontrigger Enter called on " + other.gameObject);
-				if (other.tag == "Ground" ) {
-						Destroy(other.gameObject);
-				} 
-
-		}*/
 }

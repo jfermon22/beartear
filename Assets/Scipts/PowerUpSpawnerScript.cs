@@ -9,10 +9,17 @@ public class PowerUpSpawnerScript : MonoBehaviour {
 	public GameObject[] axePowerUpPrefab;
 	public GameObject[] invinciblePowerUpPrefab;
 
-	public ObstacleController.ObstacleType[] planePuCanBeSpawnedDuringArray;
-	public ObstacleController.ObstacleType[] honeyPuCanBeSpawnedDuringArray;
-	public ObstacleController.ObstacleType[] axePuCanBeSpawnedDuringArray;
-	public ObstacleController.ObstacleType[] invinciblePuCanBeSpawnedDuringArray;
+
+	public ObstacleController.ObstacleType[] planePuCanBeSpawnedDuringArray = {ObstacleController.ObstacleType.NONE};
+	public ObstacleController.ObstacleType[] honeyPuCanBeSpawnedDuringArray = {
+				ObstacleController.ObstacleType.NONE,
+				ObstacleController.ObstacleType.GROUND,
+				ObstacleController.ObstacleType.BUNNIES,
+				ObstacleController.ObstacleType.SPACE_SHIP };
+	public ObstacleController.ObstacleType[] axePuCanBeSpawnedDuringArray = {ObstacleController.ObstacleType.BUNNIES};
+	public ObstacleController.ObstacleType[] invinciblePuCanBeSpawnedDuringArray = {ObstacleController.ObstacleType.BUNNIES,
+				ObstacleController.ObstacleType.SPACE_SHIP,
+				ObstacleController.ObstacleType.GROUND};
 
 
 	PowerUp PlanePowerUp;

@@ -176,36 +176,6 @@ PlayerSettings:
       m_Icon: {fileID: 0}
       m_Width: 128
       m_Height: 128
-  - m_BuildTarget: iPhone
-    m_Icons:
-    - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 5a79923ec819a456f855057cb225efd8, type: 3}
-      m_Width: 152
-      m_Height: 152
-    - serializedVersion: 2
-      m_Icon: {fileID: 0}
-      m_Width: 144
-      m_Height: 144
-    - serializedVersion: 2
-      m_Icon: {fileID: 0}
-      m_Width: 120
-      m_Height: 120
-    - serializedVersion: 2
-      m_Icon: {fileID: 0}
-      m_Width: 114
-      m_Height: 114
-    - serializedVersion: 2
-      m_Icon: {fileID: 0}
-      m_Width: 76
-      m_Height: 76
-    - serializedVersion: 2
-      m_Icon: {fileID: 0}
-      m_Width: 72
-      m_Height: 72
-    - serializedVersion: 2
-      m_Icon: {fileID: 0}
-      m_Width: 57
-      m_Height: 57
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: WindowsStandaloneSupport
@@ -470,7 +440,7 @@ PlayerSettings:
   WebGL::audioCompressionFormat: 4
   WebGL::exceptionSupport: 0
   WebGL::memorySize: 256
-  iOS::Architecture: 2
+  iOS::Architecture: 0
   iOS::EnableIncrementalBuildSupportForIl2cpp: 1
   iOS::ScriptingBackend: 0
   tvOS::Architecture: 1

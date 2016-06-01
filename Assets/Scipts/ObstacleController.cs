@@ -69,9 +69,7 @@ public class ObstacleController : MonoBehaviour {
 		switch(currentObstacleType){
 			case ObstacleType.NONE:
 				if(GetTimeSinceLastObstacleSpawned() > AllowedTimeBetweenObstacles){
-								Debug.Log("only spawing laser");
-					//currentObstacleType = GetRandomEnum<ObstacleType>();
-								currentObstacleType = ObstacleType.SPACE_SHIP;
+					currentObstacleType = GetRandomEnum<ObstacleType>();
 					setAllowedTimeBetweenObstacles();
 				}
 				break;
